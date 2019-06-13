@@ -17,7 +17,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-</head>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    </head>
 
 <body>
     <div class="container">
@@ -33,280 +35,143 @@
         <h4>Link to Photo Image (Required)</h4>
         <input type="text" id="photo" class="form-control" required>
         <hr>
-        <h3>
-            <strong>Question 1</strong>
-        </h3>
+
+        <h3><strong>Question 1</strong></h3>
         <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
-       
-        <div class="form-check form-check-inline" id="q1">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
+        
         <br>
         <br>
-        <h3>
-            <strong>Question 2</strong>
-        </h3>
-        <h4>Generally speaking, you rely more on imagination than experience</h4>
-        <div class="form-check form-check-inline" id="q2">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
 
         <br>
         <br>
-        <h3>
-            <strong>Question 3</strong>
-        </h3>
-        <h4>You find it easy to stay relaxed and focused even when there is some pressure</h4>
-        <div class="form-check form-check-inline" id="q3">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
 
         <br>
         <br>
-        <h3>
-            <strong>Question 4</strong>
-        </h3>
-        <h4>You rarely do something out of sheer curiosity</h4>
-        <div class="form-check form-check-inline" id="q4">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
 
         <br>
         <br>
-        <h3>
-            <strong>Question 5</strong>
-        </h3>
-        <h4>People can rarely upset you</h4>
-        <div class="form-check form-check-inline" id="q5">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
 
         <br>
         <br>
-        <h3>
-            <strong>Question 6</strong>
-        </h3>
-        <h4>It is often difficult for you to relate to other people's feelings</h4>
-        <div class="form-check form-check-inline" id="q6">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
 
         <br>
         <br>
-        <h3>
-            <strong>Question 7</strong>
-        </h3>
-        <h4>In a discussion, truth should be more important than other people's sensitivites</h4>
-        <div class="form-check form-check-inline" id="q7">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
+        <br>
+        <br>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
 
         <br>
         <br>
-        <h3>
-            <strong>Question 8</strong>
-        </h3>
-        <h4>You rarely get carried away by fantasies and ideas</h4>
-        <div class="form-check form-check-inline" id="q8">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
 
         <br>
         <br>
-        <h3>
-            <strong>Question 9</strong>
-        </h3>
-        <h4>You think that everyone's views should be respected whether they are supported by facts or not.</h4>
-        <div class="form-check form-check-inline" id="q9">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
 
-        <br>
-        <br>
-        <h3>
-            <strong>Question 10</strong>
-        </h3>
-        <h4>You feel more energetic after spending time with a group of people</h4>
-        <div class="form-check form-check-inline" id="q10">
-            <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">1 (Strongly Disagree)</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">5 (Strongly Agree)</label>
-        </div>
-
-
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+        <h3><strong>Question 10</strong></h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans</h4>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Please Select</option>    
+            <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+        </select>
+        
 
     <br>
     <br>
@@ -328,22 +193,9 @@
 $("#submit").on("click", function(event){
     event.preventDefault();
 
-    function validateForm() {
-        var isValid = true;
-        $(".form-check-input").each(function(){
-            if($(this).val() === "") {
-                isValid = false;
-            }
-        });
-
-        $(".form-control").each(function(){
-            if ($(this).val()==="") {
-                isValid = false;
-            }
-        });
-        return isValid;
-    }
-    if (validateForm()) {
+    function addProfile() {
+       
+        
         var surveyInput = {
             name: $("#name").val(),
             photo: $("#photo").val(),
@@ -361,10 +213,13 @@ $("#submit").on("click", function(event){
             ]
         };
         console.log(surveyInput);
-        // $.post("/api/friends", surveyInput, function(data){
-            
-        // })
+        $.post("/api/friends", surveyInput)
+                .then(function (data) {
+                    console.log("survey.html", data);
+                    alert("Profile added.");
+                });
     }
+    addProfile();
 })
 
 </script>
