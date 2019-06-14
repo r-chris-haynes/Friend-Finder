@@ -18,7 +18,7 @@ var friendArray = [
   {
     "name":"Angie",
     "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "choices":[
         3,
         5,
         2,
@@ -34,7 +34,7 @@ var friendArray = [
   {
     "name":"Anna",
     "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "choices":[
         1,
         5,
         2,
@@ -50,7 +50,7 @@ var friendArray = [
   {
     "name":"Alex",
     "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "choices":[
         2,
         4,
         1,
@@ -67,5 +67,9 @@ var friendArray = [
   
   
 ];
+console.log(friendArray[2].choices)
+
+
+
 
 module.exports = friendArray;
