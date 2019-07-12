@@ -224,7 +224,7 @@
                 // console.log(surveyInput);
                 $.post("/api/friends", surveyInput)
                     .then(function (data) {
-                        console.log("survey.html", data);
+                        console.log("Possible Friends", data);
                         alert("Profile added.");
                     });
             }

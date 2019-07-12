@@ -4,11 +4,32 @@ module.exports = function(app) {
  
   app.get("/api/friends", function(req, res) {
       res.json(friendsData);
-      console.log(friendArray);
+   
     });
 
     app.post("/api/friends", function(req, res) {
-      friendsData.push(req.body);
-      res.json(true);
+      const newPerson = req.body;
+      var possibleMatch = "";
+
+      for (let i = 0; i < friendsData.length; i++) {
+        var matchPercentage = 100;
+        var possibleSecondMatch = "";
+
+      for (let j = 0; j < newPerson.choices.length; j++) {
+        matchPercentage - Math.abs(parseInt(newPerson.choices[j]) - parseInt(friendsData[i].choices[j])); 
+      };
+      if (possibleMatch === "") {
+        possibleMatch = friendsData[i];
+        possibleMatch.percentage = matchPercentage;
+      } else {
+        possibleSecondMatch = friendsData[i];
+        possibleSecondMatch.percentage = matchPercentage;
+      };
+      if (possibleSecondMatch.percentage > possibleMatch.percentage) {
+        possibleMatch = possibleSecondMatch;
+      };
+    }
+    console.log("Possible Match: " , possibleMatch);
+    res.json(possibleMatch);
     });
   }

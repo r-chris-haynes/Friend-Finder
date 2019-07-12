@@ -67,7 +67,15 @@ var friendArray = [
   
   
 ];
-console.log(friendArray[2].choices)
+// console.log(friendArray[2].choices);
+
+
+
+function findMatch() {
+    for(var i = 0; i < friendArray.length; i++) {
+
+    }
+}
 
 
 
